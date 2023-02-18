@@ -46,12 +46,44 @@
 
 			1.6 questions : finding the remainder through remainder theorem, find the value of variables when factor and remainder when divided by divisor is given.
 
+	Notes : 
+		When finding the remainder and quotient by formula in the equation, the remainder should be [R, Rx + a, Rx^2 + a] according to the divisior in the question.
+		The power in the remainder should be one less in the remainder than that of the divisior. eg : if the divisior is [x^2 + x + 1] then the remainder will be [Rx + a].  
 		
 - Logarithm and exponential functions
-	-> 2.1 : 
-		>
+	
+	We should know the concept of indices from before studies. Now we are gonna learn using logarithm instead of indices. 
+	Know the concept of Logarithm and exponential.
+	
+	-> 2.1 : Logarithms to base 10  
+		> Understanding the basic concept and using of logarithm/exponential function.
+		> log to the base 10 is same as ln or lg.
+		> Learning how to change the equation from Exponential to Logarithm and vice versa 
+		> solving Logarithm and Exponential equations with only base 10.
 
+			2.1 questions : Solving and changing Logarithm and Exponential equations.
+	
+	-> 2.2 : Logarithm to base a 
+		> learning to solve logarithm and exponential equations with base other than base 10.(base 10 is the standered form of logarithm)
 		
+			2.2 questions : solving, converting and simplifying the logarithm and exponential equations, Finding the value of given variable.		
+	
+	-> 2.3 : The laws of logarithm
+		> There are three laws of logarithm, we can use if the bases are same :
+			i) multiplication law : eg: [log base a (x.y)] can be written as [log base a (x) + log base a (y)].
+			ii) division law : eg: [log base a (x/y)] can be wirtten as [log base a (x) - log base a (y)].
+			iii) power law : eg [log base a (x)^2] can be written as [2 x log base a (x)]
+		
+			2.3 questions : combining two or more than two logarithms to one single logarithm and simplifying the simple logarithm, expressing one variable in terms of other variables.
+
+	-> 2.4 : Logarithm equations
+		> Solving logarithm equations using logarithm laws.
+
+			2.4 questions : Solve logarithm equations and simultaneous logarithm equations.
+
+	-> 2.5 : 
+
+	
 - Trigonometry 
 - Differentiation 
 - Integration 
