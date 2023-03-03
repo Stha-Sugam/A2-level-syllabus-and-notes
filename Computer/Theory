@@ -3,6 +3,59 @@
 * Theory : 7 chapters
 
 - Data representation
+    -> Built in Data Type: 
+
+        > The data type that the programming language has already defined itself and the programmer can use these data types without declaring is built-in data types.
+        > They are also called primary or primitive data types.
+        > examples of these data types are: STRING, INTEGER, BOOLEAN, DATE, REAL, FLOAT,... etc.
+
+    -> User Defined Data type : 
+
+        Those data types that are defined by the user by deriving from the existing data type is known as user defined data type.
+        examples of these data types are: array, class, module etc.
+        
+        1) Non-Compsite Data type:  The data type that are defined without the reference to other data type is known as non-composite data type. 
+                                    It can also be built-in data types.
+            i) Eneumerated Data type: Enumerated data type contains no references to other data types when it is defined. Enumerated data type has fixed values.
+                > Structure for enumerated data type:
+                    TYPE <identifier> = (value1, value2, value3, ... and so on) 
+                > example of enumerated data type: 
+                    TYPE Tmonth = (January, February, March, April, May, June, July, August, September, October, November, December)
+                    Defining the months in pseudocode:
+                    
+                    DECLARE Thismonth : Tmonth
+                    DECLARE Nextmonth : Tmonth
+                    Thismonth <- January
+                    Nextmonth <- Thismonth + 1
+
+            ii) Pointer Data type: The Pointer data type is used to refrence a memory location.
+                > Structure fot pointer data type:
+                    Type <identifier> : ^<type name>
+                    when the type is mentioned we have to give a caret (^) symbol to identify as a pointer.
+                > example of pointer data type :
+                    Type Phone_number_pointer : ^INTEGER 
+                    
+                    
+        2) Composite Data type
+            i)Sets
+            ii) Classes
+
+    -> File Organization and access:
+
+        1) File Organization
+            i) Serial file organization 
+            ii) Sequential file orgnization 
+            iii) Random file organization 
+
+        2) file access
+            i) Sequential access
+            ii) Direct access
+
+    -> Hashing Algorithm
+    
+
+
+
 - Communication and Internet technologies
 - Hardware and virtual machines
 - logic circuits and Boolean algebra
