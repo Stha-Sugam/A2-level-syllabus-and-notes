@@ -29,16 +29,45 @@
                     Nextmonth <- Thismonth + 1
 
             ii) Pointer Data type: The Pointer data type is used to refrence a memory location.
-                > Structure fot pointer data type:
+                > Structure of pointer data type:
                     Type <identifier> : ^<type name>
                     when the type is mentioned we have to give a caret (^) symbol to identify as a pointer.
                 > example of pointer data type :
-                    Type Phone_number_pointer : ^INTEGER 
+                    Type Tmonthpointer = ^Tmonth
+                    DECLARE monthpointer : Tmonthpointer
+                    monthpointer <- ^thismonth                    
                     
+        2) Composite Data type : The data type that refers to other data type when defined is known as composite data type.
+
+            i) Record data type : Records are the composite data types that are iclusive of many several related items that may be of different data type.
+                                Record data type can be built-in data type or it can also be user defined.
                     
-        2) Composite Data type
-            i)Sets
-            ii) Classes
+                > Structure of record data type  : 
+                    TYPE
+                    <Typename>
+                        DECLARE <item1 identifier> : <Data type>
+                        DECLARE <item2 identifier> : <Data type>
+                        DECLARE <item3 identifier> : <Data type>
+
+                    END TYPE
+
+                example of record data type:
+                    TYPE 
+                    Student_information 
+                        Name : STRING
+                        Roll Number : INTEGER
+                        Height : REAL
+                        Gender : BOOLEAN
+                    ENDTYPE 
+
+             
+            ii) Set data type : Sets are the data types that has the collection of non-repeating items that can be performed defined mathematical calculations.
+                                Sets are useful because it has no duplicate values. So if there is a one dimentional array and if we have to check for duplicate values then we can convert the array into set and after processing we can again convert it back to original.
+                > Structure of set data type : 
+
+
+            
+            iii) Class data type : 
 
     -> File Organization and access:
 
