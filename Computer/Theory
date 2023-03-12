@@ -62,17 +62,32 @@
 
              
             ii) Set data type : Sets are the data types that has the collection of non-repeating items that can be performed defined mathematical calculations.
-                                Sets are useful because it has no duplicate values. So if there is a one dimentional array and if we have to check for duplicate values then we can convert the array into set and after processing we can again convert it back to original.
+                                Sets are useful because it has no duplicate values. 
+                                So if there is a one dimentional array and if we have to check for duplicate values then we can convert the array into set and after processing we can again convert it back to original.
                 > Structure of set data type : 
+                    TYPE <SET identifier> = SET of <BASETYPE>
+                > Defining the SET :
+                    DEFINE <identifier> = (value1, value2, value3, ... and so on) : <SET identifier>
 
+                example of SET data type :
+                    TYPE Sletter = set of CHAR
+                    DEFINE vowels = ("a","e","i","o","u") : letters
 
-            
-            iii) Class data type : 
+                Operations that can be performed in set:
+                    • Checking if a value exists in a set
+                    • Adding a new data value
+                    • Removing an existing data value
+                    • Adding one set to another set
+
+            iii) Class data type : The composite data type that includes variables of given data types and methods.
+                                   It is used for object oriented programming. There are likely to be number of built-in classes but if the programmer wants to utilize the classes, then they can create user defined classes. 
 
     -> File Organization and access:
 
-        1) File Organization
-            i) Serial file organization 
+        1) File Organization : 
+
+            i) Serial file organization : The oranization where the files are stored physically one after another in the order they were added is known as serial file oranization.
+
             ii) Sequential file orgnization 
             iii) Random file organization 
 
